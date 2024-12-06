@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "rangav.vscode-thunder-client",
+        "seatonjiang.gitmoji-vscode",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "tamasfe.even-better-toml",
+        "fill-labs.dependi",
+        "njpwerner.autodocstring"
+    ]
+}
