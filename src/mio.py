@@ -12,6 +12,8 @@ class Mio(App):
         Binding("d", "toggle_dark", "Toggle dark mode"),
         Binding("ctrl+q", "quit", "Quit The Application", show=False, priority=True)
     ]
+    TITLE = "Mio"
+    SUB_TITLE = "❤️"
 
     def on_load(self) -> None:
         # Called When Application is Loaded
@@ -33,7 +35,7 @@ class Mio(App):
 
     def action_quit(self) -> None:
         # -- Quit Gracefully
-        self.exit(return_code=0, message="[-] Goodbye :c")
+        self.exit(return_code=0, message="[-] Goodbye :C")
 
 
 if __name__ == "__main__":
